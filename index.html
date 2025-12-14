@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AprovApp</title>
+    <link rel="icon" href="assets/img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/aprovapp.css">
+
+   
+</head>
+
+
+<body>
+
+    <header class="cabecalho">
+
+        <img src="assets/img/logo_caixaverso.png" alt=" logotipo do caixa verso">
+
+    </header>
+
+
+    <main>
+
+        <div class="container_logo">
+
+        <img class="logo" src="assets/img/logo_aprovapp.png" alt="logo do site">
+
+        </div>
+
+
+        <div class="botoes">
+            
+            <button onclick="cadastrarTurma()">Cadastrar Turma</button>
+
+            <button onclick="lancarNotas()">Lançar as Notas</button>
+
+            <button onclick="calcularMedia()">Calcular Média da Turma</button>
+
+            
+
+            
+
+        </div>
+
+        <div class="container_dados">
+
+        <h2>Nome da Turma</h2>
+
+            <p id="nome_turma" style="text-transform: uppercase;"></p>
+
+
+        <h2 >Quantidade de Alunos</h2>
+
+            <p id="qtd_alunos"></p>
+
+        
+
+        <h2>Média da Turma</h2>
+
+            <p id="media_turma"></p>
+
+
+        <h2>Resultado</h2>
+
+            <p id="resultado"></p>
+            
+
+        </div>
+
+        <div class="btn_reiniciar">
+
+        <button onclick="reiniciar()" >Reiniciar</button>
+
+        </div>
+
+    </main>
+
+
+
+
+
+     <footer class="rodape">
+
+    <img class="rodape_logo"
+      src="https://sso.caixaverso.ada.tech/_next/image?url=https%3A%2F%2Fada-caixaverso-workspace-prd-bucket.s3.sa-east-1.amazonaws.com%2Fpublic%2Fworkspace%2Fpublic%2Flogo-regular.png&w=128&q=75"
+      alt="logo da Caixa">
+
+    <p>© 2025 Este ambiente online destina-se exclusivamente ao treinamento educacional para o programa Caixa Verso, não
+      envolvendo qualquer atividade comercial. As imagens exibidas foram coletadas de mecanismos de busca, sendo todas
+      elas regidas pelas respectivas leis de direitos autorais.</p>
+
+  </footer>
+    
+   <script src="assets/script/aprovapp.js"></script>
+
+</body>
+
+
+</html>

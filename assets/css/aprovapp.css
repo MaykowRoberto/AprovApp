@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:aliceblue;
+    font-family: "Roboto", sans-serif;
+
+}
+
+body{
+    background-color:  #0f172a;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    
+}
+
+header img{
+    padding-left: 15px;
+   
+    width: 10%;
+    
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.container_logo{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 20%;
+}
+
+
+.botoes{
+    text-align: center;
+    margin-top: 40px;
+}
+
+div button{
+     
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+   
+    color: #ffffff;
+    background-color: #005ca9; 
+    
+   
+    padding: 12px 20px;
+    
+    border-radius: 8px; 
+    margin-bottom: 25px; 
+    
+   
+
+}
+
+div button:hover {
+     transition: background-color 0.3s ease, transform 0.3s ease,
+     box-shadow 0.3s ease; 
+    background-color: #d06228; 
+    color: #ffffff;
+    cursor: pointer;
+    
+   
+
+    transform: scale(1.05) translateY(-3px);
+}
+
+
+.container_dados{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+h2{
+    color:#005ca9;
+    font-size: 50px;
+}
+
+ main div p{
+    background-color: #d06228;
+    padding: 30px;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+.btn_reiniciar{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.rodape{
+    
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  
+    margin: 50px 20px 0 20px;
+}
+
+.rodape p{
+    text-align: center;
+    margin: 20px;
+}
+
+.rodape_logo{
+    width: 7%;
+    
+}
+
+@media screen and (max-width: 900px)  {
+
+    .logo{
+        width: 75%;
+    }
+
+
+    header img{
+    position: relative;
+    
+    
+    width: 25%;
+   
+    
+    }
+    
+
+    h2{
+        font-size: 30px;
+
+    }
+
+    .rodape_logo{
+    width: 20%;
+    
+    }
+
+
+
+
+}
