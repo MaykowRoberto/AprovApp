@@ -62,7 +62,7 @@ function lancarNotas(){
     for(i = 0; i< turma.length;i++){
         let alunoAtual= turma[i];
 
-        let notaDigitada = prompt("Digite a nota do aulo(a): "+ alunoAtual.nome);
+        let notaDigitada = prompt("Digite a nota do Aluno(a): "+ alunoAtual.nome);
 
         alunoAtual.nota = parseInt(notaDigitada);
     }
